@@ -1,0 +1,87 @@
+.body {
+  margin: 0px;
+  background: no-repeat url(Фото/back.png);
+  background-size: cover;
+}
+
+.wrapper {
+  width: 77%;
+  margin: auto;
+  border: dashed 1px red;
+}
+
+.header {
+  border: dashed 1px red;
+  display: flex;
+  align-items: 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5.260vw;
+  align-items: center;
+}
+
+.logo__img {
+  border: dashed 1px red;
+  background: url(Фото/Vector.svg);
+  background-size: contain;
+  width: 7.656vw;
+  height: 2.865vw;
+}
+
+.menu__item{
+  padding:0.885vw;
+  font-family: museo_sans_cyrl500, arial, helvetica, sans-serif;
+  font-size: 1.146vw;
+  color: #f8eee4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
+.title {
+  font-size: 14.583vw;
+  font-family: pt_serifbold, arial, helvetica, sans-serif;
+  margin: 0;
+  color: #f8eee4;
+  margin-top: 6.771vw;
+  opacity: 0.4;
+}
+
+.container {
+  position: relative;
+}
+
+.main__subtitle {
+  font-size: 5.104vw;
+  font-family: pt_serifbold, arial, helvetica, sans-serif;
+  margin: 0;
+  color: #f8eee4;
+  position: absolute;
+  left: 4.323vw;
+  top: 12.031vw;
+}
+
+.main__text {
+  font-size: 1.146vw;
+  font-family: museo_sans_cyrl500, arial, helvetica, sans-serif;
+  margin: 0;
+  color: #f8eee4;
+    height: 2.865vw;
+    width: 28.698vw;
+}
+
+.img-container {
+  border: dashed 1px red;
+  width: 100%;
+  height: 1000%;
+}
+
+.img-container__item_castle {
+  background: no-repeat url("Фото/Castle.png");
+}
